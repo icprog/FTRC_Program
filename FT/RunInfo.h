@@ -572,6 +572,10 @@ public:
 int fnCompareFileWriteTime(char* lpFilename1, char* lpFilename2);
 
 #define C_MAX_KEY_STR_SIZE                  32
+
+/*
+Add 100 shorted Adjective 
+*/
 static char Adjectives[][C_MAX_KEY_STR_SIZE] = 
 {
     "ancient",      "aquatic",      "basic",    "black",        "blue",
@@ -594,8 +598,31 @@ static char Adjectives[][C_MAX_KEY_STR_SIZE] =
     "sweet",        "thirsty",      "tiny",     "thoughtful",   "uneven",
     "unusual",      "vanilla",      "vast",     "watery",       "wide",
     "witty",        "wonderful",    "yellow",   "young",        "zany",
+	"ancient",      "aquatic",      "basic",    "black",        "blue",
+    "brave",        "breezy",       "bright",   "calm",         "cool",
+    "classy",       "clever",       "cloudy",   "crispy",       "curly",
+    "daily",        "free",			"dizzy",    "dynamic",      "elated",
+    "elegant",      "excited",      "exotic",   "fancy",        "bold",
+    "festive",      "fluffy",       "fresh",    "chummy",     "fuzzy",
+    "gentle",       "hungry",		"gifted",	"grand",        "great",
+    "green",        "happy",        "heavy",    "helpful",      "husky",
+    "icy",          "manic",		"jagged",   "jolly",        "joyous",
+    "kind",         "large",        "little",   "lively",       "lucky",
+    "magical",      "melodic",      "mighty",   "misty",        "modern",
+    "narrow",       "new",          "nifty",    "noisy",        "odd",
+    "orange",       "pastel",       "perfect",  "phobic",       "pink",
+    "polite",		"purple",       "quaint",   "quick",        "quiet",
+    "rapid",        "red",          "rocky",    "round",        "royal",
+    "rustic",       "shiny",        "silent",   "silky",        "silly",
+    "smiling",      "slow",         "smooth",   "strong",       "sunny",
+    "sweet",        "thirsty",      "tiny",     "deep",			"uneven",
+    "unusual",      "vanilla",      "vast",     "watery",       "wide",
+    "witty",        "windy",		"yellow",   "young",        "zany",
 };
 
+/*
+Add 100 shorted Nouns 
+*/
 static char Nouns[][C_MAX_KEY_STR_SIZE] = 
 {
     "airplane",     "apple",        "balloon",  "banana",       "breeze",
@@ -617,6 +644,26 @@ static char Nouns[][C_MAX_KEY_STR_SIZE] =
     "sun",          "table",        "teapot",   "trail",        "train",
     "tree",         "tomato",       "trumpet",  "tuba",         "tulip",
     "umbrella",     "unicorn",      "valley",   "vase",         "violet",
+    "violin",       "water",        "window",     "wind",       "zoo",
+	"jet",			"apple",        "balloon",  "banana",       "breeze",
+    "bird",         "boat",         "box",      "bug",          "butter",
+    "cartoon",      "canoe",        "carrot",   "cello",        "chair",
+    "cheese",       "coconut",      "comet",    "curtain",      "cream",
+    "daisy",        "diamond",      "earth",    "panda",		"fire",
+    "finch",		"flower",       "flute",    "giant",        "gadfly",
+    "hat",          "hill",         "iris",     "ink",          "jade",
+    "jungle",       "hippo",		"kayak",    "lake",         "bolt",
+    "lotus",        "mango",        "mint",     "moon",         "mesa",
+    "nest",         "ocean",        "onion",    "octopus",      "oboe",
+    "owl",          "lotus",        "mango",    "phoenix",      "piano",
+    "plum",			"planet",       "pond",     "potato",       "prairie",
+    "quail",        "rabbit",       "raccoon",  "raven",        "river",
+    "road",         "rosebud",      "sea",      "ship",         "shoe",
+    "shrub",        "skates",       "sky",      "socks",        "sparrow",
+    "spider",       "squash",       "sheep",	"star",         "street",
+    "sun",          "table",        "teapot",   "trail",        "train",
+    "tree",         "tomato",       "trumpet",  "tuba",         "tulip",
+    "unit",			"unicorn",      "valley",   "vase",         "violet",
     "violin",       "water",        "window",     "wind",       "zoo",
 };
 
